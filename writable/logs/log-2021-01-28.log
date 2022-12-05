@@ -1,0 +1,14 @@
+CRITICAL - 2021-01-28 21:23:20 --> Call to a member function get_akun() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(918): App\Controllers\Prestige->auth()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestige))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 21:32:27 --> Call to a member function get_akun() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(918): App\Controllers\Prestige->auth()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestige))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,44 @@
+CRITICAL - 2021-02-04 01:38:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\TugasAkhir\app\Controllers\Produk.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(918): App\Controllers\Produk->save()
+#2 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-04 01:39:24 --> Undefined variable: data
+#0 C:\xampp\htdocs\TugasAkhir\app\Controllers\Produk.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(918): App\Controllers\Produk->save()
+#2 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-04 07:38:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\TugasAkhir\app\Controllers\Produk.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(918): App\Controllers\Produk->save()
+#2 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-04 08:07:19 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\TugasAkhir\system\Common.php(1119): CodeIgniter\View\View->render('admin/produk_ed...', Array, true)
+#1 C:\xampp\htdocs\TugasAkhir\app\Controllers\Produk.php(90): view('admin/produk_ed...', Array)
+#2 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(918): App\Controllers\Produk->edit('PR001')
+#3 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\TugasAkhir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\TugasAkhir\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-04 08:08:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\TugasAkhir\app\Views\admin\produk_edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\TugasAkhir\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\system\Common.php(1119): CodeIgniter\View\View->render('admin/produk_ed...', Array, true)
+#3 C:\xampp\htdocs\TugasAkhir\app\Controllers\Produk.php(90): view('admin/produk_ed...', Array)
+#4 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(918): App\Controllers\Produk->edit('PR001')
+#5 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 C:\xampp\htdocs\TugasAkhir\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TugasAkhir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TugasAkhir\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

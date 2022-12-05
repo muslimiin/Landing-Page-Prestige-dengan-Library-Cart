@@ -1,0 +1,35 @@
+CRITICAL - 2020-11-12 06:23:55 --> Invalid file: /template_admin.php
+#0 C:\xampp\htdocs\pertemuan7\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/template_admin...')
+#1 C:\xampp\htdocs\pertemuan7\system\View\View.php(257): CodeIgniter\View\View->render('/template_admin', Array, true)
+#2 C:\xampp\htdocs\pertemuan7\system\Common.php(1119): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\pertemuan7\app\Controllers\Admin.php(13): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan7\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pertemuan7\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-12 21:15:16 --> Undefined variable: produk_model
+#0 C:\xampp\htdocs\pertemuan7\app\Controllers\Produk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#2 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan7\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pertemuan7\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-12 21:15:58 --> Call to undefined method App\Models\Produk_model::tampil_produk
+#0 C:\xampp\htdocs\pertemuan7\app\Controllers\Produk.php(20): CodeIgniter\Model->__call('tampil_produk', Array)
+#1 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#2 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan7\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pertemuan7\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-12 21:18:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::findAll()
+#0 C:\xampp\htdocs\pertemuan7\app\Controllers\Produk.php(19): App\Models\Produk_model->tampil_produk()
+#1 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#2 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp\htdocs\pertemuan7\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan7\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pertemuan7\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

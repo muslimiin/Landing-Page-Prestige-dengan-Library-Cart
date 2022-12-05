@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="app" tests="5" assertions="3" errors="2" warnings="0" failures="0" skipped="0" time="0.562899">
+    <testsuite name="ExampleDatabaseTest" file="C:\xampp\htdocs\TugasAkhir\tests\database\ExampleDatabaseTest.php" tests="2" assertions="0" errors="2" warnings="0" failures="0" skipped="0" time="0.529296">
+      <testcase name="testModelFindAll" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="C:\xampp\htdocs\TugasAkhir\tests\database\ExampleDatabaseTest.php" line="14" assertions="0" time="0.520670">
+        <error type="CodeIgniter\Database\Exceptions\DatabaseException">ExampleDatabaseTest::testModelFindAll
+CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+
+C:\xampp\htdocs\TugasAkhir\system\Database\BaseConnection.php:425
+C:\xampp\htdocs\TugasAkhir\system\Test\CIDatabaseTestCase.php:134
+C:\xampp\htdocs\TugasAkhir\system\Test\CIDatabaseTestCase.php:166
+C:\xampp\htdocs\TugasAkhir\tests\_support\DatabaseTestCase.php:40
+C:\xampp\htdocs\TugasAkhir\tests\database\ExampleDatabaseTest.php:9
+</error>
+      </testcase>
+      <testcase name="testSoftDeleteLeavesRow" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="C:\xampp\htdocs\TugasAkhir\tests\database\ExampleDatabaseTest.php" line="25" assertions="0" time="0.008626">
+        <error type="CodeIgniter\Database\Exceptions\DatabaseException">ExampleDatabaseTest::testSoftDeleteLeavesRow
+CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+
+C:\xampp\htdocs\TugasAkhir\system\Database\BaseConnection.php:425
+C:\xampp\htdocs\TugasAkhir\system\Test\CIDatabaseTestCase.php:134
+C:\xampp\htdocs\TugasAkhir\system\Test\CIDatabaseTestCase.php:166
+C:\xampp\htdocs\TugasAkhir\tests\_support\DatabaseTestCase.php:40
+C:\xampp\htdocs\TugasAkhir\tests\database\ExampleDatabaseTest.php:9
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="ExampleSessionTest" file="C:\xampp\htdocs\TugasAkhir\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.007507">
+      <testcase name="testSessionSimple" class="ExampleSessionTest" classname="ExampleSessionTest" file="C:\xampp\htdocs\TugasAkhir\tests\session\ExampleSessionTest.php" line="10" assertions="1" time="0.007507"/>
+    </testsuite>
+    <testsuite name="HealthTest" file="C:\xampp\htdocs\TugasAkhir\tests\unit\HealthTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.026096">
+      <testcase name="testIsDefinedAppPath" class="HealthTest" classname="HealthTest" file="C:\xampp\htdocs\TugasAkhir\tests\unit\HealthTest.php" line="10" assertions="1" time="0.006975"/>
+      <testcase name="testBaseUrlHasBeenSet" class="HealthTest" classname="HealthTest" file="C:\xampp\htdocs\TugasAkhir\tests\unit\HealthTest.php" line="17" assertions="1" time="0.019121"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

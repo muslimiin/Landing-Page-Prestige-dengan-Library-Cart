@@ -1,0 +1,38 @@
+CRITICAL - 2021-01-25 00:11:00 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\projek\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\projek\system\Common.php(1119): CodeIgniter\View\View->render('prestige/daftar', Array, true)
+#2 C:\xampp\htdocs\projek\app\Controllers\Prestige.php(55): view('prestige/daftar', Array)
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(918): App\Controllers\Prestige->daftar()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestige))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-01-25 00:14:17 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\projek\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\projek\system\Common.php(1119): CodeIgniter\View\View->render('prestige/daftar', Array, true)
+#2 C:\xampp\htdocs\projek\app\Controllers\Prestige.php(55): view('prestige/daftar', Array)
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(918): App\Controllers\Prestige->daftar()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestige))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-01-25 02:12:29 --> Class 'App\Controllers\Akun_model' not found
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(918): App\Controllers\Prestige->daftar_akun()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestige))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-25 20:31:52 --> Argument 2 passed to form_input() must be of the type string, null given, called in C:\xampp\htdocs\projek\app\Views\prestige\daftar.php on line 49
+#0 C:\xampp\htdocs\projek\app\Views\prestige\daftar.php(49): form_input(Array, NULL)
+#1 C:\xampp\htdocs\projek\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\Common.php(1119): CodeIgniter\View\View->render('prestige/daftar', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Prestige.php(66): view('prestige/daftar', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(918): App\Controllers\Prestige->daftar()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestige))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

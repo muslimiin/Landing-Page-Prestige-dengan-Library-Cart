@@ -1,0 +1,18 @@
+CRITICAL - 2020-11-06 13:46:43 --> Unknown column 'nama_akun' in 'field list'
+#0 C:\xampp\htdocs\pertemuan6\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO aku...')
+#1 C:\xampp\htdocs\pertemuan6\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO aku...')
+#2 C:\xampp\htdocs\pertemuan6\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO aku...')
+#3 C:\xampp\htdocs\pertemuan6\app\Controllers\Pages.php(14): CodeIgniter\Database\BaseConnection->query('INSERT INTO aku...')
+#4 C:\xampp\htdocs\pertemuan6\system\CodeIgniter.php(890): App\Controllers\Pages->__construct()
+#5 C:\xampp\htdocs\pertemuan6\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\pertemuan6\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pertemuan6\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-06 14:12:19 --> Class 'App\Controllers\Akun_model' not found
+#0 C:\xampp\htdocs\pertemuan6\system\CodeIgniter.php(918): App\Controllers\Pages->daftar_akun()
+#1 C:\xampp\htdocs\pertemuan6\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\pertemuan6\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pertemuan6\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
